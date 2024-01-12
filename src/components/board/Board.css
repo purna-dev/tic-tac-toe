@@ -1,0 +1,179 @@
+.wrapper{
+    width: 310px;
+    height: 87vh;
+    background-color: #192A32;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game_wrap{
+
+    display: none;
+}
+.game_wrap_block{
+
+    display: block;
+}
+.wrapper .game_icons{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .game_icons img:nth-child(1){
+    width: 22px;
+
+}
+.wrapper .game_icons img:nth-child(2){
+    width: 22px;
+    margin-left: 0.5rem;
+
+}
+.wrapper .pick_up{
+    background-color: #1F3540;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 260px;
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+}
+.wrapper .pick_up h2{
+    font-size: 1.1rem;
+    letter-spacing: 0.01rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+.wrapper .pick_up .pick_up_sec {
+    background-color: #192A32;
+    width: 240px;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.wrapper .pick_up .pick_up_sec button{
+    width: 130px;
+}
+.wrapper .pick_up .pick_up_sec button:nth-child(1){
+    /* background-color: transparent; */
+    border: none;
+    cursor: pointer;
+  font-family: 'Quicksand', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  border-radius: 0.3rem;
+
+  /* color: #192A32; */
+  font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.3s ease-in-out;
+}
+.wrapper .pick_up .pick_up_sec button:nth-child(2){
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: none;
+    border-radius: 0.3rem;
+    /* padding: 0.1rem; */
+    cursor: pointer;
+  font-family: 'Quicksand', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+
+  /* color: #192A32; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.3s ease-in-out;
+
+
+}
+.wrapper .pick_up .pick_up_sec button:nth-child(2):hover{
+    color: #F2B237;
+
+}
+.wrapper .pick_up .pick_up_sec button:nth-child(1):hover{
+    color: #32C4C3;
+}
+
+.changeP{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.3rem;
+    
+    color: #192A32;
+    /* background-color: #F2B237; */
+    /* color: #F2B237; */
+}
+.changeF{
+    background-color:transparent;
+    color: #fff;
+    /* color: #F2B237; */
+}
+
+/* .wrapper .pick_up .pick_up_sec button:nth-child(1) img{
+    width: 20px;
+
+
+}
+
+.wrapper .pick_up .pick_up_sec button:nth-child(2) img{
+    width: 23px;
+    
+    
+} */
+
+.wrapper .btn_g{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.wrapper .btn_g button:nth-child(1){
+    width: 270px;
+    height: 45px;
+    border: none;
+    border-radius: 0.3rem;
+    color: #192A32;
+    font-weight: 700;
+  font-family: 'DM Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+cursor: pointer;
+    background-color: #F2B237;
+    font-size: 0.8rem;
+}
+.wrapper .btn_g button:nth-child(2){
+    background-color: #32C4C3;
+
+    width: 270px;
+    height: 45px;
+    border: none;
+    border-radius: 0.3rem;
+    color: #192A32;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+  font-family: 'DM Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+cursor: pointer;
+}
+.wrapper .btn_g button:nth-child(3){
+    margin-top: 1rem;
+    background-color:#F2B237;
+
+    width: 210px;
+    height: 45px;
+    border: none;
+    border-radius: 0.3rem;
+    color: #192A32;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+  font-family: 'DM Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+cursor: pointer;
+}

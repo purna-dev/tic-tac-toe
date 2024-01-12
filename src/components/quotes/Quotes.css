@@ -1,0 +1,37 @@
+.box{
+    background-color: #192A32;
+    width: 250px;
+    height: 270px;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+.box span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #31C4BE;
+    margin-top: 1rem;
+}
+.box p{
+    color: #F2B237;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 190px;
+    text-align: center;
+}
+.box .cir{
+    width: 25px;
+    height: 25px;
+    border-radius:50%;
+    background-color: #31C4BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+
+}
